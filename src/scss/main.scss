@@ -34,6 +34,7 @@
 }
 
 .hero {
+    
     height:100vh;
     background-color: $moss-green;
     background-image: url("../images/cover.jpeg");
@@ -141,6 +142,21 @@
     background-color: $greyish-brown;
 }
 
+@media (min-width:768px) {
+    .footer {
+        flex-direction: row;
+        gap: 110px
+    }
+}
+
+@media (min-width:1040px) {
+    .footer {
+        flex-direction: row;
+        gap: 200px
+    }
+}
+
+
 .footer__ul1,
 .footer__ul2 {
     list-style-type: none;
@@ -151,6 +167,7 @@
 
 .footer__ul1 {
     margin-top: 30px;
+   
 }
 
 
@@ -172,6 +189,14 @@
 .footer__p2 {
     padding: 5px;
     color: $white;
+    
+}
+
+@media (min-width:768px) {
+    .footer__paragraph {
+      order: -1;
+      margin-left: 100px; 
+    }
 }
 
 .li {
@@ -186,7 +211,7 @@
 	background-color: $moss-green;
     border: solid $moss-green 2px;
 	text-align: center;
-	margin-block: 20px;
+	margin-bottom: 30px;
 	padding: 10px;
 	border-radius: 22.5px;
 	text-decoration: none;
@@ -201,7 +226,8 @@
 	background-color: $white;
     border: solid $moss-green 2px;
 	text-align: center;
-	margin-block: 20px;
+	margin-top: 40px;
+    margin-bottom: 15px;
 	padding: 10px;
 	border-radius: 22.5px;
 	text-decoration: none;
