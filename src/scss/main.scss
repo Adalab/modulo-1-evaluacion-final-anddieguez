@@ -32,24 +32,26 @@ background-color: pink;
 }
 
 
-/*HERO*/
+
 .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(./assets/images/lpbts-mod05-img01-desk.png);
+
 }
 
+
 .hero__title {
-    color: $white;
+    color: $black;
     text-transform: uppercase;
     font-family: $font-family-title;
 
 }
 
-.hero__paragraph {
-    color: $white;
+/*.hero__title::first-line */
 
+.hero__paragraph {
+    color: $black;
 }
 
 .section__one {
@@ -151,6 +153,7 @@ background-color: pink;
 
 .footer__p1,
 .footer__p2 {
+    padding: 5px;
     color: $white;
 }
 
