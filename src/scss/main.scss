@@ -27,18 +27,9 @@
     font-family: $font-family;
 }
 
-
-
-
-
 .header{
 background-color: $moss-green;
-
-
-
 }
-
-
 
 .hero {
     height:100vh;
@@ -189,22 +180,42 @@ background-color: $moss-green;
 .button__start {
     width: 184px;
     height: 47.3px;
-    color: $white;
-    background-color: $moss-green;
+    text-decoration: none;
+	background-color: $moss-green;
     border: solid $moss-green 2px;
-    border-radius: 25%;
-    margin-bottom: 25px;
+	text-align: center;
+	margin-block: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+    color: $white;
     font-size: 20px;
 }
 
 .button__buy {
     width: 184px;
     height: 47.3px;
+	text-decoration: none;
+	background-color: $white;
+    border: solid $moss-green 2px;
+	text-align: center;
+	margin-block: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+    color: #6C933E;
+    font-size: 20px;
+
+
+
+    /*
+    width: 184px;
+    height: 47.3px;
     color: $moss-green;
     background-color: $white;
     border: solid $moss-green 2px;
-    border-radius: 25%;
+    border-radius: 10%;
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 20px;*/
 }
