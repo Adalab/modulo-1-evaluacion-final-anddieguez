@@ -34,24 +34,36 @@ background-color: pink;
 
 
 .hero {
+    height:100vh;
+    background-color: $moss-green;
+    background-image: url("../images/cover.jpeg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    flex-direction: column; 
+    justify-content: center;
+   
 }
 
 
 .hero__title {
-    color: $black;
+    color: $white;
     text-transform: uppercase;
     font-family: $font-family-title;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.hero__title::first-line {
+    word-spacing: 100vw;
 
 }
 
-/*.hero__title::first-line */
-
 .hero__paragraph {
-    color: $black;
+    color: $white;
+    text-align: center;
 }
 
 .section__one {
