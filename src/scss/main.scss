@@ -51,10 +51,13 @@ background-color: pink;
     display: flex;
     flex-direction: column;
     padding: 13px;
-    background-color: bisque;
+    margin-left: 13px;
+    margin-right: 13px;
 }
 
 .section__one--paragraph1 {
+    margin-top: 30px;
+    margin-bottom: 5px;
     color: $moss-green;
     text-transform: uppercase;
 }
@@ -62,15 +65,13 @@ background-color: pink;
 .section__one--title {
     color: $black;
     text-transform: uppercase;
+    margin-bottom: 5px;
+    
 }
 
 .section__one--paragraph2 {
     color: $greyish-brown;
 }
-
-
-
-
 
 .section__two {
     background-color: $light-grey;
@@ -119,10 +120,18 @@ background-color: pink;
 .footer__ul2 {
     list-style-type: none;
     text-transform: uppercase;
+    
 }
 
 .footer__ul1 {
-    margin-bottom: 17px;
+    margin-top: 30px;
+}
+
+
+.footer__ul2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
 }
 
 .footer__ul1--li,
@@ -130,9 +139,38 @@ background-color: pink;
     padding: 10px;
     text-decoration: none;
     color: $white;
+    padding: 5px;
 }
 
-.footer__paragragh--one,
-.footer__paragragh--two {
+.footer__p1,
+.footer__p2 {
     color: $white;
+}
+
+.li {
+    text-align: center;
+    padding: 5px;
+}
+
+.button__start {
+    width: 184px;
+    height: 47.3px;
+    color: $white;
+    background-color: $moss-green;
+    border: solid $moss-green 2px;
+    border-radius: 25%;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.button__buy {
+    width: 184px;
+    height: 47.3px;
+    color: $moss-green;
+    background-color: $white;
+    border: solid $moss-green 2px;
+    border-radius: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
