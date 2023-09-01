@@ -28,7 +28,9 @@
 }
 
 .header{
-background-color: $moss-green;
+    position: fixed;
+    padding: 15px;
+    background-color: $moss-green;
 }
 
 .hero {
@@ -186,7 +188,7 @@ background-color: $moss-green;
 	text-align: center;
 	margin-block: 20px;
 	padding: 10px;
-	border-radius: 20px;
+	border-radius: 22.5px;
 	text-decoration: none;
     color: $white;
     font-size: 20px;
@@ -201,21 +203,8 @@ background-color: $moss-green;
 	text-align: center;
 	margin-block: 20px;
 	padding: 10px;
-	border-radius: 20px;
+	border-radius: 22.5px;
 	text-decoration: none;
     color: #6C933E;
     font-size: 20px;
-
-
-
-    /*
-    width: 184px;
-    height: 47.3px;
-    color: $moss-green;
-    background-color: $white;
-    border: solid $moss-green 2px;
-    border-radius: 10%;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: 20px;*/
 }
