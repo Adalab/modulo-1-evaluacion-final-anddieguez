@@ -37,13 +37,13 @@ background-color: pink;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(8, 209, 142);
+    background-image: url(./assets/images/lpbts-mod05-img01-desk.png);
 }
 
 .hero__title {
     color: $white;
     text-transform: uppercase;
-    font-family: $font-family-title
+    font-family: $font-family-title;
 
 }
 
