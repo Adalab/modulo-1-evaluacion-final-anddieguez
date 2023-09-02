@@ -12,8 +12,6 @@
 }
 
 
-
-   
     
     $moss-green: #6C933E;
     $light-grey: #d9e4cc;
@@ -124,7 +122,8 @@
 .section__two--image2,
 .section__two--image3 {
     width: 150px;
-    border-radius: 50%; 
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px rgba(87, 85, 85, 0.2);
 }
 
 .section__two--title1,
