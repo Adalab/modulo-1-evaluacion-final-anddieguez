@@ -1,0 +1,42 @@
+.hero {
+    
+    height:100vh;
+    background-color: $moss-green;
+    background-image: url("../images/cover.jpeg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+
+.hero__title {
+    color: $white;
+    text-transform: uppercase;
+    font-family: $font-family-title;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero__title::first-line {
+    word-spacing: 100vw;
+}
+
+.hero__paragraph {
+    position: relative;
+    color: $white;
+    text-align: center;
+}
+
+.hero__icon--green {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border: solid white 14px;
+    border-radius: 50%;
+    background-color: white;
+    left: 50%;
+    bottom: 25%;
+}

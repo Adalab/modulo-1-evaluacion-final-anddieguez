@@ -1,0 +1,45 @@
+.section__one {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.section__one--paragraph1 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: $moss-green;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.section__one--title {
+    color: $black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: $font-family-title;
+    font-size: 22px;
+    
+}
+
+.section__one--paragraph2 {
+    color: $greyish-brown;
+    font-size: 18px;
+}
+
+.button__buy {
+    width: 184px;
+    height: 47.3px;
+	text-decoration: none;
+	background-color: $white;
+    border: solid $moss-green 2px;
+	text-align: center;
+	margin-top: 40px;
+    margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 22.5px;
+	text-decoration: none;
+    color: #6C933E;
+    font-size: 20px;
+}
