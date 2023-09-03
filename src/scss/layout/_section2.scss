@@ -101,7 +101,7 @@
 }
 
 .button__start--in {
-        width: 184px;
+        width: 200px;
         height: 47.3px;
         background-color: $moss-green;
         border: solid $moss-green 2px;
@@ -111,4 +111,11 @@
         text-decoration: none;
         color: $white;
         font-size: 20px;
+       /* transition: background-color 0.7s;*/
+}
+
+ .button__start--in:hover {
+   /* background-color: $light-grey;
+    color: $moss-green;*/
+    transform: scale(2, 0.5);
     }

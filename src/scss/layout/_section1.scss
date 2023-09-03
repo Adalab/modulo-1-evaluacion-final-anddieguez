@@ -29,8 +29,8 @@
 }
 
 .button__buy {
-    width: 184px;
-    height: 47.3px;
+    width: 159.9px;
+    height: 45px;
 	text-decoration: none;
 	background-color: $white;
     border: solid $moss-green 2px;
@@ -42,4 +42,11 @@
 	text-decoration: none;
     color: #6C933E;
     font-size: 20px;
+    transition: background-color 0.7s;
 }
+
+
+.button__buy:hover {
+    background-color: $moss-green;
+    color: $white;
+    }
