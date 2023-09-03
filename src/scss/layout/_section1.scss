@@ -42,11 +42,14 @@
 	text-decoration: none;
     color: #6C933E;
     font-size: 20px;
-    transition: background-color 0.7s;
+    transition: transform 0.7s;
 }
 
 
 .button__buy:hover {
-    background-color: $moss-green;
-    color: $white;
-    }
+   transform: scale(1.2);  
+}
+
+
+    
+    

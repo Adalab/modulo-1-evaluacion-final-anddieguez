@@ -111,11 +111,14 @@
         text-decoration: none;
         color: $white;
         font-size: 20px;
-       /* transition: background-color 0.7s;*/
 }
 
- .button__start--in:hover {
-   /* background-color: $light-grey;
-    color: $moss-green;*/
-    transform: scale(2, 0.5);
-    }
+
+.button__start {
+    transition: transform 0.7s;
+}
+
+.button__start:hover {
+    transition: transform 0.7s;
+    transform: scale(1.1);
+}
