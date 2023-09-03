@@ -33,7 +33,7 @@
 }
 
 .footer__ul1 {
-    margin-top: 30px;
+    margin-top: 60px;
    
 }
 
@@ -61,6 +61,11 @@
     }
 }
 
+.footer__p2 {
+    margin-bottom: 40px;
+}
+
+
 
     @media (min-width:768px) {
         .footer__paragraph {
@@ -79,6 +84,7 @@
 .li {
     text-align: justify;
     padding: 7px;
+    
 }
 .footer__icon--green {
     position: absolute;
