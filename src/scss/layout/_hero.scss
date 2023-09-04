@@ -12,6 +12,7 @@
 
 
 &__title {
+    font-size: 5vh;
     color: $white;
     text-transform: uppercase;
     font-family: $font-family-title;
@@ -24,6 +25,7 @@
 }
 
 &__paragraph {
+    font-size: 3vh;
     position: relative;
     color: $white;
     text-align: center;

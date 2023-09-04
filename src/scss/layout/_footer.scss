@@ -34,7 +34,14 @@
 
 .footer__ul1 {
     margin-top: 60px;
+    margin-bottom: 30px;
    
+
+    &--li {
+        text-decoration: none;
+        color: $white;
+        padding: 5px;  
+    }
 }
 
 
@@ -42,13 +49,17 @@
     margin-top: 20px;
     margin-bottom: 30px;
 
-}
-
-.footer__ul1--li,
-.footer__ul2--li {
-    text-decoration: none;
+    &--li {
+        text-decoration: none;
     color: $white;
     padding: 5px;
+    }
+
+}
+
+.li {
+    text-align: justify;
+    padding: 7px;  
 }
 
 .footer__p1,
@@ -81,11 +92,7 @@
     }
 }
 
-.li {
-    text-align: justify;
-    padding: 7px;
-    
-}
+
 .footer__icon--green {
     position: absolute;
     width: 45px;
@@ -100,12 +107,10 @@
     animation-duration: 2s;
     animation-name: slidein;
 
-  
-  
   @keyframes slidein {
     from {
-      margin-left: 100%;
-      width: 300%;
+      margin-left: 50%;
+      width: 100%;
     }
   
     to {
